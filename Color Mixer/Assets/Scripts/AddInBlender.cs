@@ -214,84 +214,84 @@ public class AddInBlender : MonoBehaviour
             if (_appleCount == 1 && _bananaCount == 0)
             {
                 cubesRend[o].material.color = MixColor(appleCol);
-                Debug.Log(DifferenceColor(cubesRend[o].material.color, firstLvlColor) + "%");
+                DifferenceColor(cubesRend[o].material.color, firstLvlColor);
             }
 
             if (_appleCount == 2 && _bananaCount == 0)
             {
                 cubesRend[o].material.color = MixColor(appleCol, appleCol);
-                Debug.Log(DifferenceColor(cubesRend[o].material.color, firstLvlColor) + "%");
+                DifferenceColor(cubesRend[o].material.color, firstLvlColor);
             }
 
             if (_appleCount == 3 && _bananaCount == 0)
             {
                 cubesRend[o].material.color = MixColor(appleCol, appleCol);
-                Debug.Log(DifferenceColor(cubesRend[o].material.color, firstLvlColor) + "%");
+                DifferenceColor(cubesRend[o].material.color, firstLvlColor);
             }
 
             if (_appleCount == 4 && _bananaCount == 0)
             {
                 cubesRend[o].material.color = MixColor(appleCol, appleCol);
-                Debug.Log(DifferenceColor(cubesRend[o].material.color, firstLvlColor) + "%");
+                DifferenceColor(cubesRend[o].material.color, firstLvlColor);
             }
 
             if (_appleCount == 0 && _bananaCount == 1)
             {
                 cubesRend[o].material.color = MixColor(bananaCol);
-                Debug.Log(DifferenceColor(cubesRend[o].material.color, firstLvlColor) + "%");
+                DifferenceColor(cubesRend[o].material.color, firstLvlColor);
             }
 
             if (_appleCount == 0 && _bananaCount == 2)
             {
                 cubesRend[o].material.color = MixColor(bananaCol, bananaCol);
-                Debug.Log(DifferenceColor(cubesRend[o].material.color, firstLvlColor) + "%");
+                DifferenceColor(cubesRend[o].material.color, firstLvlColor);
             }
 
             if (_appleCount == 0 && _bananaCount == 3)
             {
                 cubesRend[o].material.color = MixColor(bananaCol, bananaCol);
-                Debug.Log(DifferenceColor(cubesRend[o].material.color, firstLvlColor) + "%");
+                DifferenceColor(cubesRend[o].material.color, firstLvlColor);
             }
             if (_appleCount == 0 && _bananaCount == 4)
             {
                 cubesRend[o].material.color = MixColor(bananaCol, bananaCol);
-                Debug.Log(DifferenceColor(cubesRend[o].material.color, firstLvlColor) + "%");
+                DifferenceColor(cubesRend[o].material.color, firstLvlColor);
             }
 
             if (_appleCount == 1 && _bananaCount == 1)
             {
                 cubesRend[o].material.color = MixColor(appleCol, bananaCol);
-                Debug.Log(DifferenceColor(cubesRend[o].material.color, firstLvlColor) + "%");
+                DifferenceColor(cubesRend[o].material.color, firstLvlColor);
             }
 
             if (_appleCount == 2 && _bananaCount == 2)
             {
                 cubesRend[o].material.color = MixColor((appleCol + bananaCol) / 2, (appleCol + bananaCol) / 2);
-                Debug.Log(DifferenceColor(cubesRend[o].material.color, firstLvlColor) + "%");
+                DifferenceColor(cubesRend[o].material.color, firstLvlColor);
             }
 
             if (_appleCount == 2 && _bananaCount == 1)
             {
                 cubesRend[o].material.color = MixColor((appleCol + bananaCol) / 2, appleCol);
-                Debug.Log(DifferenceColor(cubesRend[o].material.color, firstLvlColor) + "%");
+                DifferenceColor(cubesRend[o].material.color, firstLvlColor);
             }
 
             if (_appleCount == 3 && _bananaCount == 1)
             {
                 cubesRend[o].material.color = MixColor((appleCol + bananaCol + appleCol) / 3, appleCol);
-                Debug.Log(DifferenceColor(cubesRend[o].material.color, firstLvlColor) + "%");
+                DifferenceColor(cubesRend[o].material.color, firstLvlColor);
             }
 
             if (_appleCount == 1 && _bananaCount == 2)
             {
                 cubesRend[o].material.color = MixColor((appleCol + bananaCol) / 2, bananaCol);
-                Debug.Log(DifferenceColor(cubesRend[o].material.color, firstLvlColor) + "%");
+                DifferenceColor(cubesRend[o].material.color, firstLvlColor);
             }
 
             if (_appleCount == 1 && _bananaCount == 3)
             {
                 cubesRend[o].material.color = MixColor((bananaCol + appleCol + bananaCol) / 3, bananaCol);
-                Debug.Log(DifferenceColor(cubesRend[o].material.color, firstLvlColor));
+                DifferenceColor(cubesRend[o].material.color, firstLvlColor);
             }
         }
     }
